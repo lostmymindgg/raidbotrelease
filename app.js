@@ -2653,13 +2653,13 @@ if(command === "info") {
   message.channel.send({ embed: yeet});
 }
 if (message.content === '!heart') {
-  message.react(':heart:');
+  message.react('💓');
 }
-if (message.content === '!temp1') {
+if (message.content === 'temp1') {
 		message.react('😄');
 }
-if (message.content === '!temp2') {
-    message.react('396548322053062656');
+if (message.content === 'val') {
+    message.react('💩');
 }
 if(command  === "") {
 message.channel.send("");
