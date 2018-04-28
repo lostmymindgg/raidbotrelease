@@ -2652,7 +2652,7 @@ if (message.content === '!val') {
     message.react('💩');
 }
 if(command  === "td") {
-message.channel.send("TORNADO DEMON | SILENCE | WIND | RANDOM OFF | INCREASES OFF DMG DEALT | PARTLY ABSORB WIND DMG TAKEN | INCREASE WIND DAMAGE DEALT | INCREASE FIRE DMG TAKEN");
+message.channel.send("TORNADO DEMON \nSILENCE \nWIND \nRANDOM OFFENCE \nINCREASES OFFENCE DMG DEALT \nPARTLY ABSORB WIND DMG TAKEN \nINCREASE WIND DAMAGE DEALT \nINCREASE FIRE DMG TAKEN");
 }
 if(command === "") {
 message.channel.send("");
