@@ -611,7 +611,7 @@ if(command === "voltaicfield") {
       "embed": {
           title: 'AOE | SPEED | INTEL | LIGHTNING | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/312186898509d7627b6910b631517a3b.png",
+            "url": "https://i.gyazo.com/6dc901d6c27041512a5e3c6b1f767cdc.png",
           }
       }
   })
@@ -631,7 +631,7 @@ if(command === "blindingstreak") {
       "embed": {
           title: 'BLINDING STREAK | LIGHTNING | WILL + INT | NORMAL | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/e4bf46c21adbec89fa1409722cb2bbe7.png",
+            "url": "https://i.gyazo.com/765f788f238e841a13bb58f1f0f35c29.png",
           }
       }
   })
@@ -641,7 +641,7 @@ if(command === "skyline") {
       "embed": {
           title: 'SKYLINE | NORMAL | LIGHTNING | STR + INT | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/9670d5bd77cfb18191528d77dda2f27e.png",
+            "url": "https://i.gyazo.com/e558bb24bd2b599bf176e941ff05b69f.png",
           }
       }
   })
@@ -651,7 +651,7 @@ if(command === "fieldsofpurgatory") {
       "embed": {
           title: 'FIELDS OF PURGATORY | FIRE | SPEED + INT | AOE | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/f93e881c12944513d4b9b6cfb95f5ba2.png",
+            "url": "https://i.gyazo.com/d722b4b50b073199fa40d0bd8ae55293.png",
           }
       }
   })
@@ -671,7 +671,7 @@ if(command === "devilsplay") {
       "embed": {
           title: 'DEVILS PLAY | FIRE | NORMAL | STR + INT | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/db2c682dd507d1062b1586b293cc6f57.png",
+            "url": "https://i.gyazo.com/2babe7cfe4259d3921542adc9d9ef0fa.png",
           }
       }
   })
@@ -681,7 +681,7 @@ if(command === "helltube") {
       "embed": {
           title: 'HELL TUBE | FIRE | NORMAL | WILL + INT | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/9c04debdb7ccd3af0368a5924a81d5d3.png",
+            "url": "https://i.gyazo.com/9d31f62fa7b57b9ae19da444accfc17b.png",
           }
       }
   })
@@ -691,7 +691,7 @@ if(command === "darkworld") {
       "embed": {
           title: 'DARK WORLD | NO ELE | FORBIDDEN | INT + INT | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/e7d94c863f19a8216c6236c41130afc5.png",
+            "url": "https://i.gyazo.com/10577a9d915cf58c9388315164770d44.png",
           }
       }
   })
@@ -701,7 +701,7 @@ if(command === "divinelightblast") {
       "embed": {
           title: 'DIVINE LIGHTBLAST | BLOODLINE | LIGHT | IF YOU HAVE MORE DATA @MHYR#5240',
           "image": {
-            "url": "https://i.gyazo.com/0255ffdaf464e3194d5b9fead044de47.png",
+            "url": "https://i.gyazo.com/d2086732046ae35e76f84826fcaab0d9.png",
           }
       }
   })
@@ -1496,12 +1496,12 @@ if(command === "swiftstepstance") {
       }
   })
 }
-if(command === "") {
+if(command === "swiftterror") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SWIFT TERROR | TAI | BLOODLINE (QT) | TEMPEST | EJ | 7 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/9fd1c97e16e906d861dcae8dcd4e2811.png",
           }
       }
   })
@@ -2601,8 +2601,8 @@ message.channel.send("SOLAR SOUL | NINJUTSU \nELEMENTS: FIRE/LIGHTNING/LIGHT \nI
 if(command === "vip") {
 message.channel.send("CURRENT LIST OF HIGHEST DONATORS LOVE YA \nBLINK: 20000000 \nKHIONE: 10000000 \nYOU'RE THE BEST | LOTS OF LOVE | TEMPER");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "qt") {
+message.channel.send("QUAKING TURBULENCE | TAIJUTSU \nELEMENTS: WIND/LIGHTNING/TEMPEST \nINCREASED TAIJUTSU DAMAGE DEALT \nINCREASED WIND/LIGHTNING/TEMPEST DAMAGE DEALT \nINCREASED FIRE/WIND/SCORCHING DAMAGE TAKEN \n+5 REGEN");
 }
 if(command === "") {
 message.channel.send("");
@@ -2652,13 +2652,13 @@ if(command === "info") {
   .addField("Uptime:", + "ms");
   message.channel.send({ embed: yeet});
 }
-if (message.content === '!heart') {
+if (message.content === '!bf') {
   message.react('💓');
 }
-if (message.content === 'temp1') {
+if (message.content === '!blink') {
 		message.react('😄');
 }
-if (message.content === 'val') {
+if (message.content === '!val') {
     message.react('💩');
 }
 if(command  === "") {
