@@ -2653,7 +2653,7 @@ if(command === "info") {
   message.channel.send({ embed: yeet});
 }
 if (message.content === '!heart') {
-  message.react('439852029926703114');
+  message.react(':heart:');
 }
 if (message.content === '!temp1') {
 		message.react('😄');
