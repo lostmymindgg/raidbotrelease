@@ -2639,7 +2639,7 @@ if(command === "info") {
   .setTitle("RaidBot v1.3")
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
-  .addField("Uptime:", + "ms");
+  .addField("Want to contribute?",  "!donate");
   message.channel.send({ embed: yeet});
 }
 if (message.content === '!bf') {
