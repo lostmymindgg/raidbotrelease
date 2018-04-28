@@ -1256,42 +1256,42 @@ if(command === "infernalmayhem") {
       }
   })
 }
-if(command === "") {
+if(command === "bladesclarity") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'BLADES CLARITY | BUKI | JOUNIN | NORMAL | WATER 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/c3adc4a35c1ad69bacc17f0248971d25.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "lanceofthebluedragon") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'LANCE OF THE BLUE DRAGON | BUKI | JOUNIN | SPECIAL | WATER | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/c1d68410ca9bfedbf8c1529abced8fc7.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "hydrostep") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'HYDRO STEP | BUKI | JOUNIN | NORMAL | WATER | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/ee35a21d6fa27a0d2baa186b7c8fcf6f.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "torrent") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'TORRENT | BUKI | JOUNIN | NORMAL | WATER | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/cbd8053cf70781737995e6da1ec90077.png",
           }
       }
   })
