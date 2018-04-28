@@ -2610,31 +2610,21 @@ message.channel.send("");
 if(command === "devhost") {
 message.channel.send("heroku");
 }
-if (message.content === "8ball") {
-    	var sayings = ["It is certain",
-										"It is decidedly so",
-										"Without a doubt",
-										"Yes, definitely",
-										"You may rely on it",
-								    "As I see it, yes",
-										"Most likely",
-										"Outlook good",
-		  							"Yes",
-										"Signs point to yes",
-										"Reply hazy try again",
-										"Ask again later",
-										"Better not tell you now",
-										"Cannot predict now",
-										"Concentrate and ask again",
-										"Don't count on it",
-										"My reply is no",
-										"My sources say no",
-										"Outlook not so good",
-										"Very doubtful"];
-
-			var result = Math.floor((Math.random() * sayings.length) + 0);
-			message.channel.send(message, sayings[result]);
+if (message.content.startsWith('!8ball')) {
+    if ( message.content.endsWith('?')) {
+      var answers = [
+      '8ball: Maybe.', '8ball: Lol no.', '8ball: I really hope so.', '8ball: Not in your wildest dreams.',
+      '8ball: There is a good chance.', '8ball: Quite likely.', '8ball: I think so.', '8ball: I hope not.',
+      '8ball: I hope so.', '8ball: Never!', '8ball: NOOPE!', '8ball: Ahaha! Really?!?', '8ball: Pfft.',
+      '8ball: Sorry, no.', '8ball: yeaaa.', '8ball: Hell to the no.', '8ball: ehhhhhh, i dont know.',
+      '8ball: The future is uncertain.', '8ball: I would rather not say.', '8ball: Who cares?',
+      '8ball: Possibly.', '8ball: Never, ever, ever.', '8ball: There is a small chance.', '8ball: Yes!'];
+      var answer = answers[Math.floor(Math.random() * answers.length)];
+    } else {
+      message.channel.sendMessage('That is not a valid question. Please add at your question "?"')
     }
+  message.channel.sendMessage(answer);
+}
 
    if (command === "flip") {
     	var result = Math.floor((Math.random() * 2) + 1);
