@@ -1416,82 +1416,82 @@ if(command === "eruptinggeyser") {
       }
   })
 }
-if(command === "") {
+if(command === "acidiccloud") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'ACIDIC CLOUD | NINJ | NORMAL | WIND | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/77674784d6ccff1af035108cf443a7a3.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "dazingwinds") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'DAZING WINDS | NINJ | NORMAL | WIND | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/1e84b5382fd385df6d80a94b0377b4b7.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "eyeofthestorm") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'EYE OF THE STORM | NINJ | NORMAL | WIND | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/2930925805b09a87248373fcd4bffb95.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "vacuumwave") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'VACUUM WAVE | NINJ | SPECIAL | WIND | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/eb24596e0b0a1cc3725537ffd7938f00.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "obsidianpath") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'OBSIDIAN PATH | HIGHEST | LOYALTY | NO ELE | JOUNIN | 3 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/0d8b3b7d9b2c04f89766a3276f9976dd.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "innerlight") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'INNER LIGHT | HIGHEST | LOYALTY | NO ELE | CHU | 1 USE',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/6221e6117a5cc5c0b106d9cc052f3f17.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "kingsnatchergambit") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'KINGSNATCHER GAMBIT | HIGHEST | LOYALTY | NO ELE | JOUNIN | 3 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/27ded26233ebd241f8d33ebf9588554b.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "swiftstepstance") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SWIFTSTEP STANCE | HIGHEST | LOYALTY-SILENCE | NO ELE | 3 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/1bbbd275430b66022e37d21a06343dc7.png",
           }
       }
   })
@@ -2647,6 +2647,38 @@ if (message.content === "8ball") {
 if (command === "roll") {
   var result = Math.floor((Math.random() * 100) + 1);
   bot.reply(message, "You rolled a: " + result);
+}
+}
+if(command === "temper") {
+message.channel.send("My mama. If you're looking for the Queen of Shroud that'd be !baelin.");
+}
+}
+if(command === "baelin") {
+message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
+}
+}
+if(command === "") {
+message.channel.send("");
+}
+}
+if(command === "") {
+message.channel.send("");
+}
+}
+if(command === "") {
+message.channel.send("");
+}
+}
+if(command === "") {
+message.channel.send("");
+}
+}
+if(command === "") {
+message.channel.send("");
+}
+}
+if(command === "") {
+message.channel.send("");
 }
 
 
