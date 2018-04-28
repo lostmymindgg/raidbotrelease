@@ -2652,6 +2652,7 @@ if(command === "info") {
   .addField("Uptime:", bot.uptime + "ms");
   message.channel.send({embed})
 }
+if(command  === "") {
 message.channel.send("");
 }
 if(command === "") {
