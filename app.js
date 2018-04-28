@@ -2586,8 +2586,8 @@ if(command === "shbl") {
   if(command === "gameon") {
   message.channel.send("16.9 | 12.8 | 13.11");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "vaakum") {
+message.channel.send("PATTERN OF AKUM VS VAPORIA \nROUND 1: DESERT ART ENTOMBMENT \nROUND 2: HAILSTONE \nROUND 3: WIND STEP \nROUND 4: ARC WIND \nROUND 5: HAILSTONE \nROUND 6: DESERT ART ENTOMBMENT \nROUND 7: WIND STEP \nROUND 8: HAILSTONE \n ROUND 9: ARC WIND \nROUND 10: DESERT ART ENTOMBMENT \nROUND 11: WIND STEP \nROUND 12: HAILSTONE \nROUND 13: ARC WIND \nROUND 14: VORTEX BLADE \nData recorded by Renegade Sound - Taijutsu | Vaporia | Water/Fire/Steam");
 }
 if(command === "") {
 message.channel.send("");
