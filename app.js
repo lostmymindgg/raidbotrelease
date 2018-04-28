@@ -140,7 +140,7 @@ client.on("message", async message => {
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     message.delete().catch(O_o=>{});
     // And we get the bot to say the thing:
-    message.channel.send('Author: Temper, Testers: Roogen, Prometheus');
+    message.channel.send('Author: Temper, \nTesters: Roogen, Prometheus, Blink');
   }
 
   if(command === "fe") {
@@ -1206,12 +1206,12 @@ if(command === "singularitysquall") {
       }
   })
 }
-if(command === "") {
+if(command === "shurikenrain") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SHURIKEN RAIN | BUKI | JOUNIN | NORMAL | FIRE | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/542491c34fab987bf8fe8f47e831c0cc.png",
           }
       }
   })
@@ -2574,8 +2574,11 @@ if(command === "febl") {
 if(command === "shbl") {
   message.channel.send("SAVAGE HURRICANE BLOODLINE JUTSUS \nEJ: SNARE OF TEMPEST: !snareoftempest \nJOUNIN: SINGULARITY SQUALL: !singularitysquall");
 }
- if(command === "") {
-  message.channel.send("");
+ if(command === "donate") {
+  message.channel.send("hit up Temper in game with dat ryo");
+}
+  if(command === "help") {
+  message.channel.send("type bloodline names as they are without spaces. e.g. !needletwister \nJutsu that have symbols in their name type them without. \nJutsu names that include a prefix e.g. Gate Strike: Raging Bear will have the Gate Strike: prefix removed. Try !ragingbear instead. \nSome misc commands include: !itemname !map !ramen !em !beta !bloodlinename !raidername");
 }
   if(command === "") {
   message.channel.send("");
@@ -2583,8 +2586,30 @@ if(command === "shbl") {
   if(command === "") {
   message.channel.send("");
 }
-  if(command === "") {
-  message.channel.send("");
+if(command === "") {
+message.channel.send("");
 }
+if(command === "") {
+message.channel.send("");
+}
+if(command === "") {
+message.channel.send("");
+}
+if(command === "") {
+message.channel.send("");
+}
+if(command === "") {
+message.channel.send("");
+}
+if(command === "") {
+message.channel.send("");
+}
+if(command === "") {
+message.channel.send("");
+}
+if(command === "devhost") {
+message.channel.send("heroku");
+}
+
 });
 client.login(process.env.BOT_TOKEN);
