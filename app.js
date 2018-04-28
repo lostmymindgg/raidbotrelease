@@ -2649,7 +2649,7 @@ if(command === "info") {
   .setTitle("RaidBot v1.3")
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
-  .addField("Uptime:", app.uptime + "ms");
+  .addField("Uptime:", + "ms");
   message.channel.send({embed});
 }
 if(command  === "") {
