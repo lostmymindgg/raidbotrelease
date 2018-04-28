@@ -2652,30 +2652,23 @@ message.channel.send("heroku");
 if(command === "temper") {
 message.channel.send("My mama. If you're looking for the Queen of Shroud that'd be !baelin.");
 }
-}
 if(command === "baelin") {
 message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 }
+if(command === "") {
+message.channel.send("");
 }
 if(command === "") {
 message.channel.send("");
 }
+if(command === "") {
+message.channel.send("");
 }
 if(command === "") {
 message.channel.send("");
 }
-}
 if(command === "") {
 message.channel.send("");
-}
-}
-if(command === "") {
-message.channel.send("");
-}
-}
-if(command === "") {
-message.channel.send("");
-}
 }
 if(command === "") {
 message.channel.send("");
