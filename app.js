@@ -140,7 +140,7 @@ client.on("message", async message => {
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     message.delete().catch(O_o=>{});
     // And we get the bot to say the thing:
-    message.channel.send('Author: Temper, \nTesters: Roogen, Prometheus, Blink');
+    message.channel.send('Author: Temper, \nTesters: Roogen, Prometheus, Blink, RenegadeSound');
   }
 
   if(command === "fe") {
@@ -2589,14 +2589,14 @@ if(command === "shbl") {
 if(command === "vaakum") {
 message.channel.send("PATTERN OF AKUM VS VAPORIA \nROUND 1: DESERT ART ENTOMBMENT \nROUND 2: HAILSTONE \nROUND 3: WIND STEP \nROUND 4: ARC WIND \nROUND 5: HAILSTONE \nROUND 6: DESERT ART ENTOMBMENT \nROUND 7: WIND STEP \nROUND 8: HAILSTONE \n ROUND 9: ARC WIND \nROUND 10: DESERT ART ENTOMBMENT \nROUND 11: WIND STEP \nROUND 12: HAILSTONE \nROUND 13: ARC WIND \nROUND 14: VORTEX BLADE \nData recorded by Renegade Sound - Taijutsu | Vaporia | Water/Fire/Steam");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "va") {
+message.channel.send("VAPORIA | HIGHEST OFFENCE (PROBABLY TAI) \nELEMENTS: WATER/FIRE/STEAM \nINCREASED OFFENCE DAMAGE DEALT \nINCREASED WATER/FIRE/STEAM DAMAGE DEALT \nINCREASED WATER/EARTH/WOOD DAMAGE TAKEN");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "sh") {
+message.channel.send("SAVAGE HURRICANE | BUKIJUTSU \nELEMENTS: WIND/LIGHTNING/TEMPEST \nINCREASED WEAPON DAMAGE DEALT \nINCREASED WIND/LIGHTNING/TEMPEST DAMAGE DEALT \nDECREASED STAMINA USED FOR WEAPON JUTSU \nINCREASED FIRE/WIND/SCORCHING DAMAGE TAKEN");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "ss") {
+message.channel.send("SOLAR SOUL | NINJUTSU \nELEMENTS: FIRE/LIGHTNING/LIGHT \nINCREASED NINJUTSUS DAMAGE DEALT \nINCREASED FIRE/LIGHTNING/LIGHT DAMAGE DEALT \nINCREASED WATER/WIND/ICE DAMAGE TAKEN");
 }
 if(command === "") {
 message.channel.send("");
