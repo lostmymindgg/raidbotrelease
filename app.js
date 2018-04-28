@@ -2610,7 +2610,7 @@ message.channel.send("");
 if(command === "devhost") {
 message.channel.send("heroku");
 }
-if (message.content === "!8ball") {
+if (message.content === "8ball") {
     	var sayings = ["It is certain",
 										"It is decidedly so",
 										"Without a doubt",
@@ -2636,7 +2636,7 @@ if (message.content === "!8ball") {
 			bot.reply(message, sayings[result]);
     }
 
-   if (message.content === "!flip") {
+   if (command === "flip") {
     	var result = Math.floor((Math.random() * 2) + 1);
     	if (result == 1) {
     		bot.reply(message, "The coin landed on heads");
@@ -2644,7 +2644,7 @@ if (message.content === "!8ball") {
     		bot.reply(message, "The coin landed on tails");
     	}
 }
-if (message.content === "!roll") {
+if (command === "roll") {
   var result = Math.floor((Math.random() * 100) + 1);
   bot.reply(message, "You rolled a: " + result);
 }
