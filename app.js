@@ -2610,6 +2610,38 @@ message.channel.send("");
 if(command === "devhost") {
 message.channel.send("heroku");
 }
+if (command === "8ball") {
+       //message.channel.startTyping();
+       //setTimeout(() => {
+       if (args.length < 2) {
+           message.channel.send({
+               embed: {
+                   color: 0x000000,
+                   title: "Great question! Make a better one."
+               }
+           })
+       } else if (message.content.endsWith("?")) {
+           var result = array[Math.floor(Math.random() * array.length)];
+           const msg = new Discord.RichEmbed()
+               .setColor(0x000000)
+               .setDescription("```" + result + ", " + message.author.username + "```")
+               .setTimestamp()
+               .setFooter("© 2018 Temper")
+               .setAuthor("8Ball", "https://cdn.discordapp.com/attachments/409519602301796352/409519694517895178/check.png")
+           message.channel.send({
+               embed: msg
+           });
+       } else {
+           message.channel.send({
+               embed: {
+                   color: 0x000000,
+                   title: "Ever heard of a question mark, idiot?"
+               }
+           });
+       }
+       //}, 500);
+       //message.channel.stopTyping();
+   }
 
 });
 client.login(process.env.BOT_TOKEN);
