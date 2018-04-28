@@ -1296,22 +1296,22 @@ if(command === "torrent") {
       }
   })
 }
-if(command === "") {
+if(command === "hydroclone") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'PALM STYLE: HYDRO CLONE | TAI | NORMAL | WATER | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/e174e7d01eb80ac1c3182ca1a853ea0f.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "demon") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'PALM STYLE: DEMON | TAI | NORMAL | WATER | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/f80c73b317df92efe55f7eba6c6fe6fb.png",
           }
       }
   })
@@ -2598,7 +2598,7 @@ message.channel.send("SAVAGE HURRICANE | BUKIJUTSU \nELEMENTS: WIND/LIGHTNING/TE
 if(command === "ss") {
 message.channel.send("SOLAR SOUL | NINJUTSU \nELEMENTS: FIRE/LIGHTNING/LIGHT \nINCREASED NINJUTSUS DAMAGE DEALT \nINCREASED FIRE/LIGHTNING/LIGHT DAMAGE DEALT \nINCREASED WATER/WIND/ICE DAMAGE TAKEN");
 }
-if(command === "VIP") {
+if(command === "vip") {
 message.channel.send("CURRENT LIST OF HIGHEST DONATORS LOVE YA \nBLINK: 20000000 \nKHIONE: 10000000 \nYOU'RE THE BEST | LOTS OF LOVE | TEMPER");
 }
 if(command === "") {
