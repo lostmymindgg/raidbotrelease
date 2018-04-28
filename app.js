@@ -2654,8 +2654,8 @@ if (message.content === '!val') {
 if(command  === "td") {
 message.channel.send("TORNADO DEMON \nSILENCE \nWIND \nRANDOM OFFENCE \nINCREASES OFFENCE DMG DEALT \nPARTLY ABSORB WIND DMG TAKEN \nINCREASE WIND DAMAGE DEALT \nINCREASE FIRE DMG TAKEN");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "jouninninjutsuwind") {
+message.channel.send("DAZING WINDS | NORMAL \nACIDIC CLOUD | NORMAL \nEYE OF THE STORM | NORMAL \nVACUUM WAVE | SPECIAL");
 }
 if(command === "") {
 message.channel.send("");
