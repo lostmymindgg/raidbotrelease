@@ -2633,20 +2633,20 @@ if (message.content === "8ball") {
 										"Very doubtful"];
 
 			var result = Math.floor((Math.random() * sayings.length) + 0);
-			message.channel.send(message, sayings[result]);
+			bot.reply(message, sayings[result]);
     }
 
    if (command === "flip") {
     	var result = Math.floor((Math.random() * 2) + 1);
     	if (result == 1) {
-    		message.channel.send("The coin landed on heads");
+    		bot.reply(message, "The coin landed on heads");
     	} else if (result == 2) {
-    		message.channel.send("The coin landed on tails");
+    		bot.reply(message, "The coin landed on tails");
     	}
 }
 if (command === "roll") {
   var result = Math.floor((Math.random() * 100) + 1);
-  message.channel.send("You rolled a: " + result);
+  bot.reply(message, "You rolled a: " + result);
 }
 }
 if(command === "temper") {
