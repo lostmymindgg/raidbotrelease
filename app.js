@@ -2580,11 +2580,11 @@ if(command === "shbl") {
   if(command === "help") {
   message.channel.send("type bloodline names as they are without spaces. e.g. !needletwister \nJutsu that have symbols in their name type them without. \nJutsu names that include a prefix e.g. Gate Strike: Raging Bear will have the Gate Strike: prefix removed. Try !ragingbear instead. \nSome misc commands include: !itemname !map !ramen !em !beta !bloodlinename !raidername");
 }
-  if(command === "") {
-  message.channel.send("");
+  if(command === "ir") {
+  message.channel.send("INFERNAL REAPER \nAFFINITY: FIRE \nOFFENSE: HIGHEST \nINCREASED OFFENSE DAMAGE DEALT \nPARTLY ABSORBS FIRE DAMAGE TAKEN \nINCREASED FIRE DAMAGE DEALT \nINCREASED WATER DAMAGE TAKEN");
 }
-  if(command === "") {
-  message.channel.send("");
+  if(command === "gameon") {
+  message.channel.send("16.9 | 12.8 | 13.11");
 }
 if(command === "") {
 message.channel.send("");
