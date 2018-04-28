@@ -2645,12 +2645,15 @@ if(command === "baelin") {
 message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 }
 if(command === "info") {
-  const embed = new Discord.RichEmbed()
+  const yeet = new Discord.RichEmbed()
   .setTitle("RaidBot v1.3")
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
   .addField("Uptime:", + "ms");
-  message.channel.send({embed});
+  message.channel.send({ embed: yeet});
+}
+if (message.content === 'heart') {
+  message.react('439852029926703114')
 }
 if(command  === "") {
 message.channel.send("");
