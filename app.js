@@ -1186,22 +1186,22 @@ if(command === "sunarc") {
       }
   })
 }
-if(command === "") {
+if(command === "quintessentialflow") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'QUINTESSENTIAL FLOW | BUKI | BLOODLINE | ICE | EJ | 7 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/e8a7c48f9875b9cb2b36fa677b52b8d4.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "singularitysquall") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SINGULARITYSQUALL | BUKI | BLOODLINE | TEMPEST | JOUNIN | 7 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/8b39537caf7fa3676f027df713116d07.png",
           }
       }
   })
@@ -2568,9 +2568,23 @@ if(command === "") {
 }
 
 
-if(command === "") {
+if(command === "febl") {
+  message.channel.send("FROSTBLADE EXECUTIONER BLOODLINE JUTSUS \nEJ: QUINTESSENTIAL FLOW: !quintessentialflow");
+}
+if(command === "shbl") {
+  message.channel.send("SAVAGE HURRICANE BLOODLINE JUTSUS \nEJ: SNARE OF TEMPEST: !snareoftempest \nJOUNIN: SINGULARITY SQUALL: !singularitysquall");
+}
+ if(command === "") {
   message.channel.send("");
 }
-
+  if(command === "") {
+  message.channel.send("");
+}
+  if(command === "") {
+  message.channel.send("");
+}
+  if(command === "") {
+  message.channel.send("");
+}
 });
 client.login(process.env.BOT_TOKEN);
