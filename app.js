@@ -2636,7 +2636,7 @@ message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 }
 if(command === "info") {
   const yeet = new Discord.RichEmbed()
-  .setTitle("RaidBot v1.3")
+  .setTitle("RaidBot v1.4.6")
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
   .addField("Want to contribute?",  "!donate");
