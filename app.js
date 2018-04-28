@@ -2648,7 +2648,6 @@ if (command === "roll") {
   var result = Math.floor((Math.random() * 100) + 1);
   bot.reply(message, "You rolled a: " + result);
 }
-}
 if(command === "temper") {
 message.channel.send("My mama. If you're looking for the Queen of Shroud that'd be !baelin.");
 }
