@@ -609,19 +609,9 @@ if(command === "forcebubble") {
 if(command === "voltaicfield") {
   message.channel.send({
       "embed": {
-          title: 'AOE | SPEED | INTEL | LIGHTNING | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'VOLTAIC FIELD | NINJ | NORMAL | LIGHTNING | EJ | 5 USES',
           "image": {
-            "url": "https://i.gyazo.com/6dc901d6c27041512a5e3c6b1f767cdc.png",
-          }
-      }
-  })
-}
-if(command === "lightningdragon") {
-  message.channel.send({
-      "embed": {
-          title: 'LIGHTNING DRAGON | LIGHTNING | SPECIAL | DOT | INT + INT | IF YOU HAVE MORE DATA @MHYR#5240',
-          "image": {
-            "url": "https://i.gyazo.com/bd4e278af732a0274a91bc9eb6745835.png",
+            "url": "https://i.gyazo.com/c5b88790b8f2f31239552f8efc1e5b2a.png",
           }
       }
   })
@@ -629,9 +619,9 @@ if(command === "lightningdragon") {
 if(command === "blindingstreak") {
   message.channel.send({
       "embed": {
-          title: 'BLINDING STREAK | LIGHTNING | WILL + INT | NORMAL | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'BLINDING STREAK | NINJ | NORMAL | LIGHTNING | EJ | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/765f788f238e841a13bb58f1f0f35c29.png",
+            "url": "https://i.gyazo.com/cffaecf83323e8cd8358d1775714e890.png",
           }
       }
   })
@@ -639,9 +629,9 @@ if(command === "blindingstreak") {
 if(command === "skyline") {
   message.channel.send({
       "embed": {
-          title: 'SKYLINE | NORMAL | LIGHTNING | STR + INT | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'SKYLINE | NINJ | NORMAL | LIGHTNING | EJ | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/e558bb24bd2b599bf176e941ff05b69f.png",
+            "url": "https://i.gyazo.com/4a6e2645f96a4f09d6478ba2e3975d58.png",
           }
       }
   })
@@ -649,9 +639,9 @@ if(command === "skyline") {
 if(command === "fieldsofpurgatory") {
   message.channel.send({
       "embed": {
-          title: 'FIELDS OF PURGATORY | FIRE | SPEED + INT | AOE | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'FIELDS OF PURGATORY | NINJ | NORMAL | FIRE | EJ | 5 USES',
           "image": {
-            "url": "https://i.gyazo.com/d722b4b50b073199fa40d0bd8ae55293.png",
+            "url": "https://i.gyazo.com/52fd33fff288050b5ce6ea3b7d2fb47f.png",
           }
       }
   })
@@ -659,9 +649,9 @@ if(command === "fieldsofpurgatory") {
 if(command === "hellsfireball") {
   message.channel.send({
       "embed": {
-          title: 'HELLS FIREBALL | FIRE |SPECIAL | INT + INT | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'HELLS FIREBALL | NINJUTSU | SPECIAL | FIRE | EJ | 5 USES',
           "image": {
-            "url": "https://i.gyazo.com/d6a0a62549f22d33b81bf310e46d99d5.png",
+            "url": "https://i.gyazo.com/ddbf216723df88681aa2cef1ecb41f9d.png",
           }
       }
   })
@@ -669,9 +659,9 @@ if(command === "hellsfireball") {
 if(command === "devilsplay") {
   message.channel.send({
       "embed": {
-          title: 'DEVILS PLAY | FIRE | NORMAL | STR + INT | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'DEVILS PLAY | NINJ | NORMAL | FIRE | EJ | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/2babe7cfe4259d3921542adc9d9ef0fa.png",
+            "url": "https://i.gyazo.com/029bd43768a84016a13860c55b717e13.png",
           }
       }
   })
@@ -679,9 +669,9 @@ if(command === "devilsplay") {
 if(command === "helltube") {
   message.channel.send({
       "embed": {
-          title: 'HELL TUBE | FIRE | NORMAL | WILL + INT | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'HELL TUBE | NINJUTSU | NORMAL | FIRE | EJ | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/9d31f62fa7b57b9ae19da444accfc17b.png",
+            "url": "https://i.gyazo.com/c1650006d929e8bdd5715a857d584674.png",
           }
       }
   })
@@ -699,9 +689,9 @@ if(command === "darkworld") {
 if(command === "divinelightblast") {
   message.channel.send({
       "embed": {
-          title: 'DIVINE LIGHTBLAST | BLOODLINE | LIGHT | IF YOU HAVE MORE DATA @MHYR#5240',
+          title: 'DIVINE LIGHTBLAST | NINJ | BLOODLINE | LIGHT | EJ | 7 USES',
           "image": {
-            "url": "https://i.gyazo.com/d2086732046ae35e76f84826fcaab0d9.png",
+            "url": "https://i.gyazo.com/21931494efbfe31497192d44493b7727.png",
           }
       }
   })
@@ -1371,7 +1361,7 @@ if(command === "greatlightningdragon") {
       "embed": {
           title: 'GREAT LIGHTNING DRAGON | NINJ | SPECIAL | LIGHTNING | EJ | 5 USES',
           "image": {
-            "url": "https://i.gyazo.com/296724f20ea15d1eac049f26eb0383e5.png",
+            "url": "https://i.gyazo.com/77350651069b4061834570d653b7b803.png",
           }
       }
   })
