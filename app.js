@@ -2651,8 +2651,8 @@ if (message.content === '!blink') {
 if (message.content === '!val') {
     message.react('💩');
 }
-if(command  === "") {
-message.channel.send("");
+if(command  === "td") {
+message.channel.send("TORNADO DEMON | SILENCE | WIND | RANDOM OFF | INCREASES OFF DMG DEALT | PARTLY ABSORB WIND DMG TAKEN | INCREASE WIND DAMAGE DEALT | INCREASE FIRE DMG TAKEN");
 }
 if(command === "") {
 message.channel.send("");
