@@ -2650,7 +2650,7 @@ if(command === "info") {
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
   .addField("Uptime:", bot.uptime + "ms");
-  message.channel.send({embed})
+  message.channel.send({embed});
 }
 if(command  === "") {
 message.channel.send("");
