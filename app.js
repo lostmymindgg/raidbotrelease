@@ -2647,8 +2647,8 @@ message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 const moment = require('moment')
 
 module.exports = (self) => {
-  self.registerCommand('uptime', function (msg, args) {
-    var ms = self.uptime
+  app.registerCommand('uptime', function (msg, args) {
+    var ms = app.uptime
     var sec = Math.floor((ms / 1000) % 60)
     var min = Math.floor((ms / 1000 / 60) % 60)
     var hrs = Math.floor((ms / 1000 / 60 / 60) % 24)
@@ -2670,7 +2670,7 @@ module.exports = (self) => {
 
     var uptime = wks + wksInfo + day + dayInfo + hrs + hrsInfo + min + minInfo + sec + secInfo
     var timeZone = new Date().toString().match(/\(([A-Za-z\s].*)\)/)[1]
-    this.send(msg, `Been up for: **${uptime}**\n(since ${moment().subtract(self.uptime, 'ms').format('L LTS')} ${timeZone})`)
+    this.send(msg, `Been up for: **${uptime}**\n(since ${moment().subtract(app.uptime, 'ms').format('L LTS')} ${timeZone})`)
   })
 }
 if(command === "info") {
@@ -2678,7 +2678,7 @@ if(command === "info") {
   .setTitle("RaidBot v1.3")
   .addField("Created by:", "Temper | @Mhyr#5240")
   .addField("Developed in:", "Node.js")
-  .addField("Uptime:", self.uptime + "ms");
+  .addField("Uptime:", app.uptime + "ms");
   message.channel.send({embed});
 }
 if(command  === "") {
