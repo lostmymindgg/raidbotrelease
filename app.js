@@ -1216,42 +1216,42 @@ if(command === "shurikenrain") {
       }
   })
 }
-if(command === "") {
+if(command === "firestar") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'FIRE STAR | BUKI | JOUNIN | NORMAL | FIRE | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/a5072c62d1896f0e785b1e59005952bd.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "blazingdeathstar") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'BLAZING DEATH STAR | BUKI | JOUNIN | NORMAL | FIRE | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/bd88ff5f93832f5648386df9baa75770.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "sunfirearc") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SUNFIRE ARC | BUKI | JOUNIN | SPECIAL | FIRE | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/d3751bc8cd75e832409066f44fc19960.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "infernalmayhem") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'INFERNAL MAYHEM | BUKI | JOUNIN | BLOODLINE | FIRE | 7 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/61471a9811ae5c66709f1db972d5dbcc.png",
           }
       }
   })
@@ -2610,38 +2610,45 @@ message.channel.send("");
 if(command === "devhost") {
 message.channel.send("heroku");
 }
-if (command === "8ball") {
-       //message.channel.startTyping();
-       //setTimeout(() => {
-       if (args.length < 2) {
-           message.channel.send({
-               embed: {
-                   color: 0x000000,
-                   title: "Great question! Make a better one."
-               }
-           })
-       } else if (message.content.endsWith("?")) {
-           var result = array[Math.floor(Math.random() * array.length)];
-           const msg = new Discord.RichEmbed()
-               .setColor(0x000000)
-               .setDescription("```" + result + ", " + message.author.username + "```")
-               .setTimestamp()
-               .setFooter("© 2018 Temper")
-               .setAuthor("8Ball", "https://cdn.discordapp.com/attachments/409519602301796352/409519694517895178/check.png")
-           message.channel.send({
-               embed: msg
-           });
-       } else {
-           message.channel.send({
-               embed: {
-                   color: 0x000000,
-                   title: "Ever heard of a question mark, idiot?"
-               }
-           });
-       }
-       //}, 500);
-       //message.channel.stopTyping();
-   }
+if (message.content === "!8ball") {
+    	var sayings = ["It is certain",
+										"It is decidedly so",
+										"Without a doubt",
+										"Yes, definitely",
+										"You may rely on it",
+										"As I see it, yes",
+										"Most likely",
+										"Outlook good",
+										"Yes",
+										"Signs point to yes",
+										"Reply hazy try again",
+										"Ask again later",
+										"Better not tell you now",
+										"Cannot predict now",
+										"Concentrate and ask again",
+										"Don't count on it",
+										"My reply is no",
+										"My sources say no",
+										"Outlook not so good",
+										"Very doubtful"];
+
+			var result = Math.floor((Math.random() * sayings.length) + 0);
+			bot.reply(message, sayings[result]);
+    }
+
+   if (message.content === "!flip") {
+    	var result = Math.floor((Math.random() * 2) + 1);
+    	if (result == 1) {
+    		bot.reply(message, "The coin landed on heads");
+    	} else if (result == 2) {
+    		bot.reply(message, "The coin landed on tails");
+    	}
+}
+if (message.content === "!roll") {
+  var result = Math.floor((Math.random() * 100) + 1);
+  bot.reply(message, "You rolled a: " + result);
+}
+
 
 });
 client.login(process.env.BOT_TOKEN);
