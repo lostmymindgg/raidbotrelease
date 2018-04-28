@@ -2652,8 +2652,11 @@ if(command === "info") {
   .addField("Uptime:", + "ms");
   message.channel.send({ embed: yeet});
 }
-if (message.content === 'heart') {
+if (message.content === '!heart') {
   message.react('439852029926703114');
+}
+if (message.content === '!temp1') {
+		message.react('😄');
 }
 if(command  === "") {
 message.channel.send("");
