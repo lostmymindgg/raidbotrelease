@@ -2639,14 +2639,14 @@ if (message.content === "8ball") {
    if (command === "flip") {
     	var result = Math.floor((Math.random() * 2) + 1);
     	if (result == 1) {
-    		message.channel.send(message, "The coin landed on heads");
+    		message.channel.send("The coin landed on heads");
     	} else if (result == 2) {
-    		message.channel.send(message, "The coin landed on tails");
+    		message.channel.send("The coin landed on tails");
     	}
 }
 if (command === "roll") {
   var result = Math.floor((Math.random() * 100) + 1);
-  message.channel.send(message, "You rolled a: " + result);
+  message.channel.send("You rolled a: " + result);
 }
 if(command === "temper") {
 message.channel.send("My mama. If you're looking for the Queen of Shroud that'd be !baelin.");
