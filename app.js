@@ -2644,7 +2644,14 @@ message.channel.send("My mama. If you're looking for the Queen of Shroud that'd 
 if(command === "baelin") {
 message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 }
-if(command === "") {
+if(command === "info") {
+  const embed = new Discord.RichEmbed()
+  .setTitle("RaidBot v1.3")
+  .addField("Created by:", "Temper | @Mhyr#5240")
+  .addField("Developed in:", "Node.js")
+  .addField("Uptime:", bot.uptime + "ms");
+  message.channel.send({embed})
+}
 message.channel.send("");
 }
 if(command === "") {
