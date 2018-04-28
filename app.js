@@ -2598,8 +2598,8 @@ message.channel.send("SAVAGE HURRICANE | BUKIJUTSU \nELEMENTS: WIND/LIGHTNING/TE
 if(command === "ss") {
 message.channel.send("SOLAR SOUL | NINJUTSU \nELEMENTS: FIRE/LIGHTNING/LIGHT \nINCREASED NINJUTSUS DAMAGE DEALT \nINCREASED FIRE/LIGHTNING/LIGHT DAMAGE DEALT \nINCREASED WATER/WIND/ICE DAMAGE TAKEN");
 }
-if(command === "") {
-message.channel.send("");
+if(command === "VIP") {
+message.channel.send("CURRENT LIST OF HIGHEST DONATORS LOVE YA \nBLINK: 20000000 \nKHIONE: 10000000 \nYOU'RE THE BEST | LOTS OF LOVE | TEMPER");
 }
 if(command === "") {
 message.channel.send("");
