@@ -2658,6 +2658,9 @@ if (message.content === '!heart') {
 if (message.content === '!temp1') {
 		message.react('😄');
 }
+if (message.content === '!temp2') {
+    message.react('396548322053062656');
+}
 if(command  === "") {
 message.channel.send("");
 }
