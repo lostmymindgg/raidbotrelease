@@ -2644,35 +2644,6 @@ message.channel.send("My mama. If you're looking for the Queen of Shroud that'd 
 if(command === "baelin") {
 message.channel.send("THE QUEEN OF SHROUD | GOD SAVE THE QUEEN");
 }
-const moment = require('moment')
-
-module.exports = (self) => {
-  app.registerCommand('uptime', function (msg, args) {
-    var ms = app.uptime
-    var sec = Math.floor((ms / 1000) % 60)
-    var min = Math.floor((ms / 1000 / 60) % 60)
-    var hrs = Math.floor((ms / 1000 / 60 / 60) % 24)
-    var day = Math.floor((ms / 1000 / 60 / 60 / 24) % 7)
-    var wks = Math.floor((ms / 1000 / 60 / 60 / 24 / 168) >> 0)
-
-    var secInfo = null; var minInfo = null; var hrsInfo = null; var dayInfo = null; var wksInfo = null
-    if (sec === 1) { secInfo = ' second ' } else { secInfo = ' seconds ' }
-    if (min === 1) { minInfo = ' minute, and ' } else { minInfo = ' minutes, and ' }
-    if (hrs === 1) { hrsInfo = ' hour, ' } else { hrsInfo = ' hours, ' }
-    if (day === 1) { dayInfo = ' day, ' } else { dayInfo = ' days, ' }
-    if (wks === 1) { wksInfo = ' week, ' } else { wksInfo = ' weeks, ' }
-
-    if (sec === 0) { sec = null; secInfo = null }
-    if (min === 0) { min = null; minInfo = null }
-    if (hrs === 0) { hrs = null; hrsInfo = null }
-    if (day === 0) { day = null; dayInfo = null }
-    if (wks === 0) { wks = null; wksInfo = null }
-
-    var uptime = wks + wksInfo + day + dayInfo + hrs + hrsInfo + min + minInfo + sec + secInfo
-    var timeZone = new Date().toString().match(/\(([A-Za-z\s].*)\)/)[1]
-    this.send(msg, `Been up for: **${uptime}**\n(since ${moment().subtract(app.uptime, 'ms').format('L LTS')} ${timeZone})`)
-  })
-}
 if(command === "info") {
   const embed = new Discord.RichEmbed()
   .setTitle("RaidBot v1.3")
