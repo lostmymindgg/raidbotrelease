@@ -140,7 +140,7 @@ client.on("message", async message => {
     // Then we delete the command message (sneaky, right?). The catch just ignores the error with a cute smiley thing.
     message.delete().catch(O_o=>{});
     // And we get the bot to say the thing:
-    message.channel.send('Author: Temper, \nTesters: Roogen, Prometheus, Blink, RenegadeSound');
+    message.channel.send('Author: Temper, \nTesters: Roogen, Prometheus, Blink, RenegadeSound & Newg. \nMuch love, Temp');
   }
 
   if(command === "fe") {
@@ -1316,102 +1316,102 @@ if(command === "demon") {
       }
   })
 }
-if(command === "") {
+if(command === "oceansform") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'OCEANS FORM | GENJ | SPECIAL | WATER | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/cda734cc9f4cd322db837bd48deaa074.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "aggressivearmor") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'AGGRESSIVE ARMOR | GENJ | NORMAL | WATER | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/4d6b380ea784594863607e2ba49049fb.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "aquablood") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'AQUA BLOOD | GENJ | NORMAL | WATER | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/e33428e7019fa5f21ceb47d8d8cb86e3.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "sanguinecocoon") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'SANGUINE COCOON | GENJ | NORMAL | WATER | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/d72550ca173cf9bedcf2ee61356e6dcf.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "darkstormcrush") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'DARK STORM CRUSH | GENJ | BLOODLINE (SD) | STORM | JOUNIN | 7 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/babf5ac02dd5903e5aad113045433896.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "greatlightningdragon") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'GREAT LIGHTNING DRAGON | NINJ | SPECIAL | LIGHTNING | EJ | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/296724f20ea15d1eac049f26eb0383e5.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "aquajelly") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'AQUA JELLY | NINJ | NORMAL | WATER | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/39585a5fd3a439b8d4331c13da10699f.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "graspinghaze") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'GRASPING HAZE | NINJ | NORMAL | WATER | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/f8ff80c5cc3c15608cea724ed4626cbb.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "hydroring") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'HYDRO RING | NINJ | NORMAL | WATER | JOUNIN | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/6be4ace6b944832744569b34ba4ee25c.png",
           }
       }
   })
 }
-if(command === "") {
+if(command === "eruptinggeyser") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'ERUPTING GEYSER | NINJ | SPECIAL | WATER | JOUNIN | 5 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/91b3a2433c524b444d4586a467b2ad2c.png",
           }
       }
   })
