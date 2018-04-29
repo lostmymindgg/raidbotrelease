@@ -371,7 +371,7 @@ if(command === "vortexclaws") {
       "embed": {
           title: 'VORTEX CLAWS | TAI | EJ | NORMAL | WIND | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/8ba78cb1ccc7c7921ca87da74052eb50.png",
+            "url": "https://i.gyazo.com/2faebaae2632dad2578eddf2ae7cf563.png",
           }
       }
   })
