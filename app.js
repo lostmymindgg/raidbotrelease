@@ -341,7 +341,7 @@ if(command === "defibrillatorassault") {
       "embed": {
           title: 'DEFIBRILLATOR ASSAULT | TAI | EJ | LIGHTNING | NORMAL | 8 USES',
           "image": {
-            "url": "https://i.gyazo.com/44219756139ee0b1fd39d7c853961101.png",
+            "url": "https://i.gyazo.com/436f70c1a42e65d247ec71db2b375e84.png",
           }
       }
   })
