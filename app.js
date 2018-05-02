@@ -1496,12 +1496,42 @@ if(command === "swiftterror") {
       }
   })
 }
-if(command === "") {
+if(command === "hydroflow") {
   message.channel.send({
       "embed": {
-          title: '',
+          title: 'BODY MANIPULATION: HYDRO FLOW | TAI | NORMAL | WATER | EJ | 8 USES',
           "image": {
-            "url": "",
+            "url": "https://i.gyazo.com/7c882b0f9bd08a80a7d59440b551e624.png",
+          }
+      }
+  })
+}
+if(command === "abyssaldemoralization") {
+  message.channel.send({
+      "embed": {
+          title: 'ABYSSAL DEMORALIZATION | TAI | SPECIAL | WATER | EJ | 5 USES',
+          "image": {
+            "url": "https://i.gyazo.com/8198581aabe86786515dc7085a88ac4a.png",
+          }
+      }
+  })
+}
+if(command === "onethousandfists") {
+  message.channel.send({
+      "embed": {
+          title: 'GATE STRIKE: ONE THOUSAND FISTS | TAI | NORMAL | WATER | EJ | 5 USES',
+          "image": {
+            "url": "https://i.gyazo.com/f552b9877809491fa6498644610c5507.png",
+          }
+      }
+  })
+}
+if(command === "midseastance") {
+  message.channel.send({
+      "embed": {
+          title: 'MIDSEA STANCE | TAI | NORMAL | WATER | EJ | 8 USES',
+          "image": {
+            "url": "https://i.gyazo.com/f765c1570f43d7014208015b10755884.png",
           }
       }
   })
